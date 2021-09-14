@@ -76,7 +76,7 @@ PlayMode::PlayMode() {
 	initialize_sprite(37, 5, "sprites/game1grass.png");
 
 
-	for (int i = 0; i < ppu.BackgroundWidth * ppu.BackgroundHeight; i++) {
+	for (uint32_t i = 0; i < ppu.BackgroundWidth * ppu.BackgroundHeight; i++) {
 		ppu.background[i] = 0;
 	}
 
